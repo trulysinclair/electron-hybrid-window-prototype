@@ -3,11 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <title>Hello World!</title>
-
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+  <body class="flex flex-col bg-gray-800 h-screen">
+    <div
+      class="border border-slate-900 h-[20px] w-full"
+      style="-webkit-app-region: drag"
+    ></div>
+    <div class="flex grow">
+      <div class="border border-slate-900 w-[48px] h-full"></div>
+      <div class="border border-slate-900 w-[200px] h-full"></div>
+    </div>
+    <div class="h-[20px] border border-slate-900 w-full"></div>
     <script type="module" src="/src/renderer.ts"></script>
   </body>
 </html>

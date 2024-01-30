@@ -9,6 +9,9 @@
     "sourceMap": true,
     "baseUrl": ".",
     "outDir": "dist",
+    "lib": [
+      "ES2015","ES2016", "DOM.Iterable", "DOM"
+    ],
     "moduleResolution": "node",
     "resolveJsonModule": true
   },
